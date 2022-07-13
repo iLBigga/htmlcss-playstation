@@ -7,6 +7,10 @@
     --light: #F5F5F5;
 }
 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /****************
       BUTTON
  ****************/
