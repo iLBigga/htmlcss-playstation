@@ -3,3 +3,30 @@
     --orange: #CD3D0F; 
     --blue: #2D64E6; 
 }
+
+/****************
+      BUTTON
+ ****************/
+
+.btn_custom {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn_blue {
+    background-color: var(--blue);
+    border-radius: 20px;
+}
+
+/****************
+      HEADER
+ ****************/
+
+
+ .header_top {
+    background-color: black;
+ }
+
+ .header_bottom{
+ }
