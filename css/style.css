@@ -3,6 +3,7 @@
     --light-grey: #BEBCBB;
     --orange: #CD3D0F; 
     --blue: #2D64E6; 
+    --dark-blue: #161C3B;
     --light: #F5F5F5;
 }
 
@@ -89,3 +90,9 @@
  .ps_plus {
     background-color: var(--light-grey);
  }
+
+  /* SIXTH SECTION : PS Now */
+
+  .ps_now {
+    background-color: var(--dark-blue);
+  }
