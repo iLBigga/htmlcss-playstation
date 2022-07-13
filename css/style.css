@@ -42,8 +42,6 @@
     background-color: black;
  }
 
- .header_bottom{
- }
 
  /****************
        MAIN
@@ -96,3 +94,14 @@
   .ps_now {
     background-color: var(--dark-blue);
   }
+
+  /* SEVENTH SECTION : Social */
+
+
+/****************
+     FOOTER
+*****************/
+
+.main_footer {
+    background-color: var(--blue);
+}
