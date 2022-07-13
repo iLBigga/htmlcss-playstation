@@ -1,7 +1,9 @@
 :root {
     --dark-grey: #363636; 
+    --light-grey: #BEBCBB;
     --orange: #CD3D0F; 
     --blue: #2D64E6; 
+    --light: #F5F5F5;
 }
 
 /****************
@@ -10,18 +12,23 @@
 
 .btn_custom {
     padding: 0.5rem;
-    text-decoration: none;
-    color: white;
     border-radius: 20px;
 }
 
 .btn_blue {
     background-color: var(--blue);
-    border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .btn_orange {
     background-color: var(--orange);
+    text-decoration: none;
+    color: white;
+}
+
+.btn_light {
+    background-color: var(--light);
 }
 
 
@@ -75,4 +82,10 @@
  .explore_ps4 .card{
     border: none !important;
     background-color: transparent !important;
+ }
+
+ /* FOURTH SECTION : PlayStationPlus */
+
+ .ps_plus {
+    background-color: var(--light-grey);
  }
