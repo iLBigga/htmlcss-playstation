@@ -12,12 +12,18 @@
     padding: 0.5rem;
     text-decoration: none;
     color: white;
+    border-radius: 20px;
 }
 
 .btn_blue {
     background-color: var(--blue);
     border-radius: 20px;
 }
+
+.btn_orange {
+    background-color: var(--orange);
+}
+
 
 /****************
       HEADER
@@ -29,4 +35,37 @@
  }
 
  .header_bottom{
+ }
+
+ /****************
+       MAIN
+ ****************/
+
+ /* jumbo section */
+
+ .img_background_returnal {
+    background-image: url(../img/jumbo-bg.png);
+    height:675px;
+    background-size: cover;
+    background-position: center;
+ }
+
+/* FIRST SECTION : Ps5 Console */
+
+/* SECOND SECTION : New Release */
+
+.new_release {
+    background-color: var(--dark-grey);
+}
+
+.img_background_taketwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height:613px;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .new_release .card{ 
+    border: none !important;
+    background-color: transparent !important;
  }
