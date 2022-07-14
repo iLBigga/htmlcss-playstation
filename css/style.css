@@ -17,17 +17,17 @@ html {
       GENERAL
  ****************/
 
-.title h1 {
+.section_title h1 {
     font-size: 41px;
     font-weight: 500;
 }
 
-.title p {
+.section_title p {
     font-size: 20px;
     color: var(--text-light-grey);
 }
 
-.title span {
+.section_title span {
     color: var(--light-blue);
     padding-bottom: 12px;
     font-weight: 500;
@@ -40,7 +40,7 @@ html {
 .game_banner h1{
     font-size: 40px;
     padding-bottom: 44px;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .game_banner img{
@@ -123,7 +123,7 @@ html {
     border: 2px solid var(--blue);
 } 
 
-.card_border_effectt {
+.card_border_effect {
     padding: 2px;
     border: 2px solid transparent;
 }
@@ -147,13 +147,21 @@ html {
     background-color: var(--blue);
 }
 
+.ps5_gadget .opacity {
+    opacity: .5;
+}
+
+.ps5_gadget .opacity:hover {
+    opacity: 100 ;
+}
+
 /* SECOND SECTION : New Release */
 
 .new_release {
     background-color: var(--dark-grey);
 }
 
-.new_release .title p {
+.new_release .section_title p {
     color: white;
 }
 
@@ -166,10 +174,15 @@ html {
 
  /* THIRD SECTION : Explore PS4 */
 
- /* .custom_card .card_text {
-    padding-right: 1.5rem;
- } */
+.explore_ps4 .custom_card h2 {
+    font-size: 37px;
+}
 
+.explore_ps4 .custom_card p {
+    color: var(--text-light-grey);
+    font-size: 20px;
+    padding: 0.75rem 0;
+}
 
  /* FOURTH SECTION : PlayStationPlus */
 
