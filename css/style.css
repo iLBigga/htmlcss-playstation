@@ -33,6 +33,10 @@ html {
     font-weight: 500;
 }
 
+.card_rounded {
+    border-radius: 20px;
+}
+
 .game_banner h1{
     font-size: 40px;
     padding-bottom: 44px;
@@ -115,12 +119,11 @@ html {
     background-position: top;
 }
 
-.jumbotron .card_effect:hover {
+.jumbotron .card_border_effect:hover {
     border: 2px solid var(--blue);
 } 
 
-.card_effect {
-    border-radius: 20px;
+.card_border_effectt {
     padding: 2px;
     border: 2px solid transparent;
 }
@@ -150,6 +153,10 @@ html {
     background-color: var(--dark-grey);
 }
 
+.new_release .title p {
+    color: white;
+}
+
 .img_background_taketwo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height:675px;
@@ -157,17 +164,11 @@ html {
     background-position: top;
  }
 
- .new_release .card{ 
-    border: none !important;
-    background-color: transparent !important;
- }
-
  /* THIRD SECTION : Explore PS4 */
 
- .explore_ps4 .card{
-    border: none !important;
-    background-color: transparent !important;
- }
+ /* .custom_card .card_text {
+    padding-right: 1.5rem;
+ } */
 
 
  /* FOURTH SECTION : PlayStationPlus */
