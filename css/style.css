@@ -1,22 +1,59 @@
 :root {
     --dark-grey: #363636; 
     --light-grey: #BEBCBB;
+    --text-light-grey: #797979;
     --orange: #CD3D0F; 
-    --blue: #2D64E6; 
-    --dark-blue: #161C3B;
+    --blue: #2D64E6;
+    --light-blue: #147DD2;
+    --dark-blue: #161C3B;  
     --light: #F5F5F5;
 }
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+/****************
+      GENERAL
+ ****************/
+
+.title h1 {
+    font-size: 41px;
+    font-weight: normal;
+}
+
+.title p {
+    font-size: 20px;
+    color: var(--text-light-grey);
+}
+
+.title span {
+    color: var(--light-blue);
+    padding-bottom: 12px;
+    font-weight: 500;
+}
+
+.game_banner h1{
+    font-size: 40px;
+    padding-bottom: 44px;
+    font-weight: normal;
+}
+
+.game_banner img{
+    padding-bottom: 40px;
+}
+
+.game_banner p{
+    padding-bottom: 37px;
+}
+
 
 /****************
       BUTTON
  ****************/
-
+ 
 .btn_custom {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 20px;
 }
 
@@ -26,8 +63,19 @@ html {
     color: white;
 }
 
+.btn_blue:hover {
+    color: white;
+    background-color: #2844d1;
+}
+
 .btn_orange {
     background-color: var(--orange);
+    text-decoration: none;
+    color: white;
+}
+
+.btn_orange:hover {
+    background-color: #af360d;
     text-decoration: none;
     color: white;
 }
@@ -42,9 +90,15 @@ html {
  ****************/
 
 
- .header_top {
+.header_top {
     background-color: black;
- }
+}
+
+/* Navbar */
+
+.dropdown-toggle::after {
+    border: none;
+}
 
 
  /****************
@@ -53,14 +107,27 @@ html {
 
  /* jumbo section */
 
- .img_background_returnal {
+.img_background_returnal {
     background-image: url(../img/jumbo-bg.png);
     height:675px;
     background-size: cover;
-    background-position: center;
- }
+    background-position: top;
+}
+
+.jumbotron .card_effect:hover {
+    border: 2px solid var(--blue);
+} 
+
+.card_effect {
+    border-radius: 20px;
+    padding: 2px;
+    border: 2px solid transparent;
+}
+
 
 /* FIRST SECTION : Ps5 Console */
+
+
 
 /* SECOND SECTION : New Release */
 
@@ -70,9 +137,9 @@ html {
 
 .img_background_taketwo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height:613px;
+    height:675px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
  }
 
  .new_release .card{ 
@@ -86,6 +153,7 @@ html {
     border: none !important;
     background-color: transparent !important;
  }
+
 
  /* FOURTH SECTION : PlayStationPlus */
 

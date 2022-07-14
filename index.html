@@ -10,11 +10,11 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -28,7 +28,7 @@
         <div class="header_top d-flex justify-content-end py-2 px-2">
             <img height="20" src="./img/sony_logo.svg" alt="sony logo">
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -105,21 +105,22 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
+                    <div class="d-flex align-items-center gap-3">
                         <div class="dropdown">
                             <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                My Playstation
+                                My PlayStation
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                            <a class="btn_custom btn_blue" href=" #">Accedi</a>
-                            <a class="text-black px-3" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </div>
-                    </form>
+                        <a class="btn_custom btn_blue" href=" #">Accedi</a>
+                        <a class="custon_search text-black align-middle py-2" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -134,22 +135,35 @@
         <section class="jumbotron">
             <div class="img_background_returnal d-flex align-items-end">
                 <div class="container py-5">
-                    <div class="game_banner text-white">
-                        <img class="img-fluid" width="300px" src="./img/returnal-hero-banner-logo.png" alt="">
-                        <h1>LOREM</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, veniam!</p>
-                        <a href="#" class="btn_custom btn_orange">Acquista ora</a>
+                    <div class="row row-cols-lg-3">
+                        <div class="game_banner gap-3 text-white">
+                            <img class="img-fluid" width="209px" src="./img/returnal-hero-banner-logo.png" alt="">
+                            <h1>Rompi il cerchio</h1>
+                            <p>
+                                Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+                                rinascita in questo esplosivo thriller fantascientifico,
+                                disponibile in esclusiva su PS5
+                            </p>
+                            <a href="#" class="btn_custom btn_orange">Acquista ora</a>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <div class="container caurosel py-5">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 m-3">
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></a></div>
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></a></div>
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></a></div>
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></a></div>
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></a></div>
+                    <div class="col"><a href="#"><img class="img-fluid card_effect"
+                                src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></a></div>
                 </div>
             </div>
         </section>
@@ -159,9 +173,9 @@
         <section class="ps5_console py-5">
             <div class="container">
                 <div class="title text-center">
-                    <span>lorem</span>
-                    <h1>LOREM</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, doloremque.</p>
+                    <span class="text-uppercase">play has no limits</span>
+                    <h1>Ecco la PlayStation 5</h1>
+                    <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                 </div>
                 <div class="ps5_info row py-5">
                     <div class="col-12 col-md-4">
@@ -206,11 +220,17 @@
         <section class="new_release text-white">
             <div class="img_background_taketwo">
                 <div class="container py-5">
-                    <div class="game_banner text-white">
-                        <img class="img-fluid" width="300px" src="./img/it-takes-two-logo.png" alt="">
-                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci!</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, veniam!</p>
-                        <a href="#" class="btn_custom btn_orange">Acquista ora</a>
+                    <div class="row row-cols-lg-3">
+                        <div class="game_banner text-white">
+                            <img class="img-fluid" width="300px" src="./img/it-takes-two-logo.png" alt="">
+                            <h1>Un'avventura cooperativa selvaggia ti attende</h1>
+                            <p>
+                                Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Take
+                                Two,
+                                un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                            </p>
+                            <a href="#" class="btn_custom btn_orange">Acquista ora</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -395,7 +415,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 py-5">
                         <img class="img-fluid" src="./img/ps-plus-logo.png" alt="">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi error provident aut voluptate voluptatum odit.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi error provident aut
+                            voluptate voluptatum odit.</p>
                         <a class="btn_custom btn_light" href="#">Esplora PlayStation Plus</a>
                     </div>
                     <div class="col-6 d-none d-lg-block">
@@ -411,12 +432,16 @@
             <div class="container">
                 <div class="title">
                     <h1>Lorem ipsum dolor sit amet.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut dolores provident sint autem doloremque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut dolores provident sint autem
+                        doloremque.</p>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt=""></div>
-                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt=""></div>
+                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg"
+                            alt=""></div>
+                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg"
+                            alt=""></div>
+                    <div class="col"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg"
+                            alt=""></div>
                 </div>
             </div>
         </section>
@@ -428,7 +453,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 py-5">
                         <img class="img-fluid" src="./img/ps-plus-logo.png" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis asperiores consectetur vel illo laudantium dicta eveniet! Vero dolor velit esse.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis asperiores consectetur
+                            vel illo laudantium dicta eveniet! Vero dolor velit esse.</p>
                         <a class="btn_custom btn_light" href="#">Esplora PlayStation Now</a>
                     </div>
                     <div class="col-6 d-none d-lg-block">
@@ -459,27 +485,27 @@
     <footer class="main_footer py-5">
         <div class="container">
             <div class="footer_top row justify-content-between pb-5">
-                <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptate fuga explicabo ut? Reprehenderit placeat provident voluptatum dolores optio assumenda?</div>
-                <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptate fuga explicabo ut? Reprehenderit placeat provident voluptatum dolores optio assumenda?</div>
+                <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptate
+                    fuga explicabo ut? Reprehenderit placeat provident voluptatum dolores optio assumenda?</div>
+                <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptate
+                    fuga explicabo ut? Reprehenderit placeat provident voluptatum dolores optio assumenda?</div>
             </div>
             <div class="footer_bottom">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, quae! Sapiente tenetur maxime quis optio, 
-                    cupiditate laboriosam neque illo! Ipsam quaerat illo, maxime repellendus porro fugiat odio quas doloribus officia.
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, quae! Sapiente tenetur maxime quis
+                    optio,
+                    cupiditate laboriosam neque illo! Ipsam quaerat illo, maxime repellendus porro fugiat odio quas
+                    doloribus officia.
                 </p>
             </div>
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
 </body>
 
