@@ -14,6 +14,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+ul , ol, menu {
+    list-style: none;
+}
+
 /****************
       GENERAL
  ****************/
@@ -225,4 +229,20 @@ html {
 
 .main_footer {
     background-color: var(--blue);
+}
+
+/* Footer top */
+
+.footer_top .ps_logo_footer {
+    width: 85px;
+}
+
+.footer_top .globe_logo_footer {
+    width: 24px
+}
+
+/* Footer bottom */
+
+.footer_bottom .sie_logo {
+    width: 128px;
 }
