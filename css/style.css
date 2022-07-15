@@ -117,6 +117,7 @@ ul , ol, menu {
 
 /* Navbar */
 
+
 .dropdown-toggle::after {
     border: none;
 }
@@ -187,11 +188,14 @@ ul , ol, menu {
     background-position: top;
  }
 
+.new_release .custom_card {
+    transition: 300ms ease-in-out;
+}
+
 .new_release .custom_card:hover {
     cursor: pointer;
-    background-color: #797979;
+    background-color: var(--text-light-gray);
     border-radius: 20px;
-    transition: 200ms ease-in-out;
 }
 
  /* THIRD SECTION : Explore PS4 */
@@ -228,6 +232,14 @@ ul , ol, menu {
 
   /* SEVENTH SECTION : Social */
 
+.social .custom_card img {
+    transition: 300ms ease-in-out;
+}
+
+.social .custom_card:hover img{
+    border-radius: 20px;
+
+} 
 
 /****************
      FOOTER
@@ -247,9 +259,17 @@ ul , ol, menu {
     width: 24px
 }
 
+.footer_top li {
+    padding-top: 0.5rem;
+}
+
 .footer_top a {
     text-decoration: none;
     color: white;
+}
+
+.footer_top a:hover {
+    color: black;
 }
 
 /* Footer bottom */
