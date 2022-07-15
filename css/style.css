@@ -131,8 +131,8 @@ ul , ol, menu {
 .img_background_returnal {
     background-image: url(../img/jumbo-bg.png);
     height: 675px;
-    background-size: cover;
-    background-position: top;
+    background-size: auto;
+    background-position: center;
 }
 
 .jumbotron .card_border_effect:hover {
@@ -143,7 +143,6 @@ ul , ol, menu {
     padding: 2px;
     border: 2px solid transparent;
 }
-
 
 /* FIRST SECTION : Ps5 Console */
 
@@ -184,9 +183,16 @@ ul , ol, menu {
 .img_background_taketwo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height:675px;
-    background-size: cover;
+    background-size: auto;
     background-position: top;
  }
+
+.new_release .custom_card:hover {
+    cursor: pointer;
+    background-color: #797979;
+    border-radius: 20px;
+    transition: 200ms ease-in-out;
+}
 
  /* THIRD SECTION : Explore PS4 */
 
@@ -239,6 +245,11 @@ ul , ol, menu {
 
 .footer_top .globe_logo_footer {
     width: 24px
+}
+
+.footer_top a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Footer bottom */
