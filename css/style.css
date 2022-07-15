@@ -89,6 +89,7 @@ html {
 
 .btn_light {
     background-color: var(--light);
+    color: black;
 }
 
 .btn_gray {
@@ -207,9 +208,13 @@ html {
 
   /* SIXTH SECTION : PS Now */
 
-  .ps_now {
+.ps_now {
     background-color: var(--dark-blue);
-  }
+}
+
+.ps_now .logo_ps_now {
+    max-width: 400px;
+}
 
   /* SEVENTH SECTION : Social */
 
